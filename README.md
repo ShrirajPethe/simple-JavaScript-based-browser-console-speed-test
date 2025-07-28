@@ -1,4 +1,4 @@
-# simple JavaScript-based browser console speed test
+# Simple JavaScript-Based Browser Console Speed Test
 
 JavaScript code to benchmark browser console operations.
 
