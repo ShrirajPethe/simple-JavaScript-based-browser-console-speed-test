@@ -18,7 +18,7 @@ JavaScript code to benchmark browser console operations.
 
 ## About This Project
 
-When searching for existing repositories to measure browser console performance, I attempted to use GitHub Copilot. Instead of locating a suitable project, Copilot generated this code for me. For my current needs, this AI-generated solution is sufficient.
+When searching for existing repositories to measure browser ~~console~~ performance, I attempted to use GitHub Copilot. Instead of locating a suitable project, Copilot generated this code for me. For my current needs, this AI-generated solution is sufficient.
 
 ## What the Code Does
 
@@ -37,6 +37,21 @@ This JavaScript script runs a series of performance tests in your browser's cons
      - Adding values to an array (`push`)
      - Removing values from an array (`pop`)
      - Assigning properties to an object
-   - Lower times indicate better performance for that operation in your browser environment.
+   - Lower values indicate better performance for that operation in your browser environment.
 
 Each result helps you understand how efficiently your browser handles basic JavaScript tasks.
+
+![image1](image1)
+
+## What Do the Values Mean?
+
+- Each reported time reflects how quickly your browser processes a specific kind of JavaScript operation.
+- **Lower times** indicate better performance for that operation.
+- Differences in values can be caused by factors like system resources, browser optimization, how many tabs are open, or background activity.
+- For most modern browsers, arithmetic and simple array operations should complete very quickly (often under 100 ms), while object property assignments take longer due to memory allocation and management.
+
+**Range Interpretation:**
+- If your results for each test are within a few tens to hundreds of milliseconds, your browser is performing normally for typical usage.
+- If you notice consistently high values (hundreds or thousands of milliseconds), it may indicate heavy system load or limitations in your browser's JavaScript engine.
+
+These benchmarks can help you compare performance between browsers, or before and after making changes to your system or browser environment.
