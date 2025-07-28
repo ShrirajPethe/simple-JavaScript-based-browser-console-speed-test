@@ -41,7 +41,7 @@ This JavaScript script runs a series of performance tests in your browser's cons
 
 Each result helps you understand how efficiently your browser handles basic JavaScript tasks.
 
-![image1](image1)
+![ScreenshotDemo.png](ScreenshotDemo.png)
 
 ## What Do the Values Mean?
 
